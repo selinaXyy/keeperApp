@@ -23,7 +23,7 @@ function App(){
     function deleteNote(idPar){
         setNotes(
             notes.filter((note,index)=>{
-                return index != idPar;
+                return index !== idPar;
             })
         );
     }
